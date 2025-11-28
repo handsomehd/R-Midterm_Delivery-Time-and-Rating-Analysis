@@ -117,8 +117,35 @@
 <img width="771" height="432" alt="image" src="https://github.com/user-attachments/assets/24901e97-c6ba-4767-a625-5ad1e4dac939" />
 
 ***
--
-<img width="769" height="671" alt="image" src="https://github.com/user-attachments/assets/335f422b-72b4-477a-9fbf-fb1ade6ae458" />
+- 使用 AIC, BIC, Anova(RSS) 評估哪個模型最好
+- 模型二為最佳
+
+1. Anova
+
+<img width="604" height="168" alt="image" src="https://github.com/user-attachments/assets/0c39e925-58b8-4049-b4d1-e668419a79f1" />
+
+2. AIC
+
+<img width="601" height="200" alt="image" src="https://github.com/user-attachments/assets/3c8bd412-3f57-4837-8d9d-359da051d73d" />
+
+2. BIC
+
+<img width="602" height="202" alt="image" src="https://github.com/user-attachments/assets/f75dee70-f1a3-4a47-b898-4ac3f8f950eb" />
+
+***
+### 第二部分：外送評分的分析
+- 以羅吉斯回歸分析何種因素將影響外送評分高低（以評分4.8以上為高分）
+
+1. Intercept 靠左且無遠於他的 plot ，說明此模型沒有 overfitting 或 underfitting。
+2. 可以看出天氣狀況對外送評分高低沒有關係。
+3. 在0右邊的點可以看出以外送食物的種類為關鍵因素，代表無論是交通狀況、天氣狀況甚至於外送時間都不會對評分有影響，真正影響評分的因素應該是食物送來時的狀況，或是這間店好不好吃，跟外送員沒有太大的關係！
+4. 
+<img width="843" height="631" alt="image" src="https://github.com/user-attachments/assets/605b715f-57f4-4157-b3d4-b020ffa9c25a" />
+
+
+
+
+
 
 
 
